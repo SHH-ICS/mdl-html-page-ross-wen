@@ -11,14 +11,16 @@ h1 {
   text-align: center;
 }
 
-button {
-  text-align: center;
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
 }
 
-form {
-  text-align: center;
-}
-
-a {
-  text-align: center;
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
